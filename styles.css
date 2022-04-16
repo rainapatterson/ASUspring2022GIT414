@@ -50,7 +50,7 @@ table {
 
 /* global styles */
 body{
-	background-color: #81cab8;
+	background-color: #40352C;
 }
 h1>a{
     font-family: masqualero-groove, sans-serif;
@@ -89,7 +89,9 @@ p, h2, h3, a, li{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	padding: 5px;
-	background-color: #e1a489;
+	background-color: #D9A78B;
+	box-shadow: 5px 10px 25px #2e261f;
+	margin-top:0px;
 }
 .nav-item {
 	padding: 20px;
@@ -97,13 +99,14 @@ p, h2, h3, a, li{
 	text-align: center;
 }
 .nav-item:hover{
-	background-color: #c06640;
+	background-color: #8C6954;
 	color: darkgray;
 	opacity: 50%;
 	box-shadow: 10px;
 	border-radius: 8px 8px 8px 8px;
 }
 a{
+	color: white;
     text-decoration: none;
 	list-style: none;
 }
@@ -120,7 +123,7 @@ h2{
 	margin-top: 50px;
 	margin-bottom: 20px;
 	padding-left: 25px;
-	color: rgb(101, 18, 18);
+	color: #F2CEAE;
 	font-size: 32px;
 }
 .category{
@@ -134,14 +137,31 @@ h2{
 a>img{
 	height: 100%;
 	width: 100%;
-	object-fit: cover;
-	border-radius: 75px 75px;
+	border-radius: 50% 50%;
 	transition: all 0.5s;
-	padding-bottom: 10px;
+	margin-bottom: 16px;
+	border: #D9A78B 0.5px solid;
+	box-shadow: 2px 2px 6px #2e261f;
+
 }
 a>img:hover{
 	opacity: 75%;
 	height: 120%;
 	width: 120%;
 }
-
+h3, p{
+	color: #F2CEAE;
+}
+.hometwo{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 25px;
+}
+.hometwo-items{
+	padding: 50px;
+}
+.hometwo-items img{
+	width: 100%;
+	border-radius: 16px;
+	box-shadow: 5px 10px 25px #2e261f;
+}
